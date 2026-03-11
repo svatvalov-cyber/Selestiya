@@ -97,7 +97,7 @@ async def get_ai_response(user_message: str) -> str:
     }
     
     data = {
-        "model": "openai/gpt-3.5-turbo",  # Можно заменить на другую модель
+        "model": "google/gemini-2.0-flash-exp:free",,  # Можно заменить на другую модель
         "messages": full_messages,
         "temperature": 0.9,  # Немного творчества
         "max_tokens": 500
